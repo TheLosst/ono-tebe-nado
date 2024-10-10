@@ -15,13 +15,13 @@
       <div class="header_nav">
         <ul class="header_nav_linklist">
           <li class="header_nav_list_item header_nav_list_item_first">
-            <a href="#" class="header_link header_link_first">главная</a>
+            <a href="#" class="link header_link_first">главная</a>
           </li>
           <li class="header_nav_list_item">
-            <a href="#" class="header_link">посмотреть лоты</a>
+            <a href="#" class="link">посмотреть лоты</a>
           </li>
           <li class="header_nav_list_item">
-            <a href="#" class="header_link">об аукционе</a>
+            <a href="#" class="link">об аукционе</a>
           </li>
         </ul>
       </div>
@@ -31,16 +31,14 @@
       <div class="header_address">
         <ul class="header_address_list">
           <li class="header_address_list_item">
-            <a
-              href="tel:+99995555555"
-              class="header_address_list_item header_link"
+            <a href="tel:+99995555555" class="header_address_list_item link"
               >+9 999 555 5555</a
             >
           </li>
           <li class="header_address_list_item">
             <a
               href="mailto:info@sobaka.ge"
-              class="header_address_list_item header_link"
+              class="header_address_list_item link"
               >info@sobaka.ge</a
             >
           </li>
@@ -55,11 +53,85 @@
     </header>
     <main class="main content">
       <section class="cover content">
-        <div class="cover_overlay"></div>
-        <h1 class="cover_title"></h1>
+        <div class="overlay"></div>
+        <h1 class="cover_title">
+          <span class="cover_text_allign"
+            >О<span class="letter-space">НО</span></span
+          >
+          <span class="cover_text_allign cover_text_allign_center"
+            >ТЕ<span class="letter-space">БЕ</span>
+          </span>
+          <span class="cover_text_allign cover_text_allign_right"
+            ><span class="letter-space">Н</span>АД<span class="no_spacing"
+              >О</span
+            ></span
+          >
+        </h1>
+        <div class="cover_description">
+          <p class="cover_description_text">
+            АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ
+          </p>
+          <button class="cover_bet_button">СДЕЛАТЬ СТАВКУ</button>
+        </div>
       </section>
-      <section class="lots content"></section>
-      <section class="about content"></section>
+      <section class="lots content">
+        <h2 class="lots_h2">ЛОТЫ</h2>
+        <ul class="lots_table">
+          <li class="lots_table_item">
+            <a href="#" class="lots_table_item_link">
+              <div class="item item_background_image type_film">
+                <div class="overlay"></div>
+                <h3 class="item_title">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
+                <p class="item_text">
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                  ставка, если бы вы не знали, что режиссёр — Пол Томас
+                  Андерсон?
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="lots_table_item">
+            <a href="#" class="lots_table_item_link">
+              <div class="item item_background_image type_book">
+                <div class="overlay"></div>
+                <h3 class="item_title">
+                  Книга, где описан один скучный день из жизни рекламного агента
+                </h3>
+                <p class="item_text">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
+                  с переходами на древнеанглийский. В ней одновременно
+                  рассказывается о 16 июня 1904 года и об истории литературы,
+                  начиная с античных времён. И это всё накладывается на
+                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                  Джеймса Джойса?
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="lots_table_item">
+            <a href="#" class="lots_table_item_link">
+              <div class="item item_background_image type_picture">
+                <div class="overlay"></div>
+                <h3 class="item_title">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <p class="item_text">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                  котиков... Сколько бы вы на такое поставили, если бы не знали,
+                  что это — одна из революционных работ Кандинского?
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <a href="#" class="lots_load_more_link link">посмотреть больше</a>
+      </section>
+      <section class="about content">
+        
+      </section>
     </main>
     <footer></footer>
   </body>
