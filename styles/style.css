@@ -102,10 +102,7 @@ html {
   font-size: 100px;
   line-height: 1.15;
   letter-spacing: 30px;
-  position: relative;
   z-index: 1;
-  display: flex;
-  flex-direction: column;
   gap: 20px;
   text-transform: uppercase;
 }
@@ -209,7 +206,7 @@ html {
   background-position: center;
 }
 
-.type_film{
+.type_film {
   background-image: url(../images/card-lot-01.jpg);
 }
 
