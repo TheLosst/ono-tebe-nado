@@ -5,7 +5,7 @@ html {
 
 .header {
   display: grid;
-  grid-template-columns: 1.51fr 2fr 1.5fr;
+  grid-template-columns: 1.51fr 2fr 1.5fr 2fr;
   align-items: center;
   justify-content: space-evenly;
   padding: 92px 51px 89px;
