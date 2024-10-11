@@ -5,7 +5,7 @@ html {
 
 .header {
   display: grid;
-  grid-template-columns: 1.51fr 2fr 1fr 2fr;
+  grid-template-columns: 1.51fr 2fr 1.5fr;
   align-items: center;
   justify-content: space-evenly;
   padding: 92px 51px 89px;
@@ -25,7 +25,7 @@ html {
   list-style: circle;
 }
 
-.nav_list_item_first {
+.header__link_active {
   list-style: none;
 } 
 
@@ -39,7 +39,7 @@ html {
   background-color: black;
 }
 
-.header_link_first {
+.nav_list-item_no-bullit {
   text-decoration: none;
 }
 
@@ -48,6 +48,7 @@ html {
   justify-self: center;
   align-self: center;
   width: 140px;
+  margin-right: 123px;
 }
 
 .header_logo_img {
@@ -59,14 +60,20 @@ html {
   font-style: inherit;
 }
 
-.address_list {
-  list-style: none;
+.address_position {
+  margin-right: 36px;
 }
 
-.address_list_item {
+.address_item {
+    display: block;
+    font-size: 18px;
+    line-height: 1.35;
+    text-underline-position: under;
+}
+
+.address_address-text {
   font-size: 18px;
   line-height: 1.35;
-  text-underline-position: under;
 }
 
 .main {
@@ -81,6 +88,7 @@ html {
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .overlay {
@@ -165,7 +173,7 @@ html {
   padding: 0 24px;
 }
 
-.lots_h2 {
+.lots_title {
   padding: 0 0 30px 40px;
   font-weight: bold;
   line-height: 1;
@@ -177,6 +185,7 @@ html {
   list-style: none;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 25px;
+  gap: 25px;
   width: 100%;
 }
 
@@ -185,6 +194,7 @@ html {
 }
 
 .lots_table_item_link {
+  text-decoration: none;
   display: block;
   height: 100%;
 }
@@ -195,7 +205,7 @@ html {
   flex-direction: column;
   justify-content: space-between;
   width: 334px;
-  height: 563px;
+  height: 100%;
   padding: 51px 40px;
 }
 
@@ -252,7 +262,7 @@ html {
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 24px;
+  column-gap: 0px;
   padding: 0 50px;
 }
 
@@ -265,22 +275,25 @@ html {
   border-radius: 50%;
   background-color: #000000;
   align-content: start;
+  margin-left: 20px;
+  margin-top: -6px;
 }
 
 .about_logo_img {
-  width: 141px;
+  width: 150px;
 }
 
 .about_text {
-  grid-column: 2/4;
+  grid-column: 2/4;  
 }
 
 .about_title {
-  padding: 100px 0 104px;
+  padding: 100px 0 0 0px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
   text-transform: uppercase;
+  margin-bottom: 100px
 }
 
 .about_text_text {
@@ -290,14 +303,14 @@ html {
 }
 
 .footer {
-  padding: 112px 50px 80px;
+  padding: 160px 50px 80px;
   display: flex;
   justify-content: space-between;
 }
 
 .nav_linklist_footer {
     display: block;
-    padding: 0;
+    padding: 0px 0px 0px 40px;
     margin: 0;
     text-align: center;
 }
