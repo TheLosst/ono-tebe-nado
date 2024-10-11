@@ -207,13 +207,14 @@ html {
   width: 334px;
   height: 100%;
   padding: 51px 40px;
-}
-
-.item_background_image {
   background-image: none;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.item_background_image {
+
 }
 
 .type_film {
