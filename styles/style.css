@@ -192,6 +192,7 @@ html {
 
 .lots_table_item {
   height: auto;
+  min-height: 567.56px;
 }
 
 .lots_table_item_link {
