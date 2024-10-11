@@ -178,6 +178,7 @@ html {
   font-weight: bold;
   line-height: 1;
   font-size:  40px;
+  text-transform: uppercase;
 }
 
 .lots_table {
@@ -211,10 +212,6 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.item_background_image {
-
 }
 
 .type_film {
